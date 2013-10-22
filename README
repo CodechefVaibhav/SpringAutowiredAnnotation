@@ -1,0 +1,8 @@
+You can use @Autowired annotation on setter methods to get rid of the <property> element in XML 
+configuration file. When Spring finds an @Autowired annotation used with setter methods, it tries
+ to perform byType autowiring on the method.
+ 
+ if @Autowired is used with a varible of a class then you don't need to create its setter method	
+ 
+ & @Autowired is used with a setter then you don't need to create <property> tag of that variable
+ under <bean> tag in xml
